@@ -574,7 +574,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 * 1a. Student name is not specified.
     * 1a1. EduTrack informs user that the student name is empty.
-    
+
       Use case ends.
 * 1b. Class name is not specified.
     * 1b1. EduTrack informs user that the class name is empty.
@@ -588,7 +588,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 * 2b. Class does not exist.
     * 2b1. EduTrack informs user that the class is not found.
     * 2b2. EduTrack terminates the request.
-  
+
       Use case ends.
 
 ---
@@ -662,6 +662,30 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
     * 1a2. EduTrack terminates the request.
 
       Use case ends.
+
+---
+
+**Use case: Access a student's record through a filter**
+
+**MSS**
+
+1. User request to access a student's record using their name, class and category to change.
+2. EduTrack shows the category and requests for new input in the category.
+3. User enters the new input for the category.
+4. EduTrack updates and displays the new student record.
+
+Use case ends.
+
+**Extensions**
+* 1a. Student name, class name or category is not specified.
+  * 1a1. EduTrack informs that student name, class name or category is missing.
+
+    Use case ends.
+* 1b. EduTrack detects that student name, class name or category does not exist.
+  * 1b1. EduTrack informs the user that the student name, class name or category does not exist.
+  * 1b2. EduTrack terminates the request.
+
+    Use case ends.
 
 ---
 
