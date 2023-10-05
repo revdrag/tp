@@ -677,8 +677,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 Use case ends.
 
 **Extensions**
-* 1a. EduTrack detects missing data.
-  * 1a1. EduTrack informs User of the data that are missing.
+* 1a. EduTrack detects missing inputs.
+  * 1a1. EduTrack informs User of the inputs that are missing.
 
     Use case ends.
 * 1b. EduTrack detects that the requested data does not exist.
