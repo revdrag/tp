@@ -669,7 +669,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **MSS**
 
-1. User request to access a student's record using their name, class and category to change.
+1. User requests to access the category of a specific student's record.
 2. EduTrack shows the category and requests for new input in the category.
 3. User enters the new input for the category.
 4. EduTrack updates and displays the new student record.
@@ -677,12 +677,12 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 Use case ends.
 
 **Extensions**
-* 1a. Student name, class name or category is not specified.
-  * 1a1. EduTrack informs that student name, class name or category is missing.
+* 1a. EduTrack detects missing data.
+  * 1a1. EduTrack informs User of the data that are missing.
 
     Use case ends.
-* 1b. EduTrack detects that student name, class name or category does not exist.
-  * 1b1. EduTrack informs the user that the student name, class name or category does not exist.
+* 1b. EduTrack detects that the requested data does not exist.
+  * 1b1. EduTrack informs User that the requested data does not exist.
   * 1b2. EduTrack terminates the request.
 
     Use case ends.
