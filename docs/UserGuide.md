@@ -58,6 +58,8 @@ If you are an **experienced user** of EduTrack, click [here](#command-summary) t
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Quick start
 
 1. Ensure you have `Java 11` or above installed on your computer.
@@ -81,6 +83,9 @@ If you are an **experienced user** of EduTrack, click [here](#command-summary) t
 6. Refer to the [Features](#features) for more details about each command.
 
 ---
+
+<div style="page-break-after: always;"></div>
+
 
 ## About
 
@@ -192,6 +197,8 @@ as space characters surrounding line breaks may be omitted when copied over to t
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 #### Command parameters
 
 Most commands in EduTrack require various parameters. You can find their constraints in the table below:
@@ -213,6 +220,8 @@ Most commands in EduTrack require various parameters. You can find their constra
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Features
 
 The features are broken down into the following subsections:
@@ -230,6 +239,8 @@ The features are broken down into the following subsections:
 </box>
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ## Class commands :school:
 
@@ -279,6 +290,8 @@ CS2103T has been added
 </box>
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Removing a class : `remove /c`
 
@@ -512,6 +525,8 @@ Successfully set the number of lessons in CS2103T to 5!
 
 :arrow_up: _Return to [Table of Contents](#table-of-contents)_
 
+<div style="page-break-after: always;"></div>
+
 ## Student commands :mortar_board:
 
 ### Adding a student : `add /s`
@@ -549,6 +564,8 @@ Added New Student: John; Id: A0000000Z; Memo:  to the class: CS2103T
   * These include the student's name, id, memo, participation, current attendance, and total attendance.
 
 </box>
+
+<div style="page-break-after: always;"></div>
 
 <box type="warning">
 
@@ -623,7 +640,6 @@ edit /s 2 /c CS2103T /id A010193Z
 ```
 3. The result box will display the following message:
 
-<br>
 
 ![EditStudentExample.png](images/EditStudentExample.png)
 
@@ -717,6 +733,8 @@ Jamie successfully marked present!
 </box>
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Marking a student absent : `unmark /s`
 
@@ -839,7 +857,6 @@ Successfully unmarked all students in CS2103T!
 ```
 4. Successfully unmarked all students in "CS2103T"! :tada:
 
-<br>
 
 <box type="info">
 
@@ -848,8 +865,6 @@ Successfully unmarked all students in CS2103T!
 * Students who have already been marked absent will not be affected by this command.
 
 </box>
-
-<br>
 
 :arrow_up: _Return to [Table of Contents](#table-of-contents)_
 
@@ -882,6 +897,8 @@ Exits the application at any time you want.
 **Command Format:** `exit`
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Clearing all entries : `clear`
 
@@ -919,6 +936,8 @@ EduTrack's got your back. Your data is automatically saved on your hard disk aft
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## FAQ
 
 **Q**: How do I transfer my data to another computer?<br>
@@ -939,6 +958,8 @@ There is no need to save manually.
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Command summary
 
 | Action          | Format, Examples                                                                                                                                                                                                                                                                                                                                         |
@@ -957,6 +978,8 @@ There is no need to save manually.
 
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## Glossary
 
